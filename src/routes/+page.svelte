@@ -44,7 +44,7 @@
 
 <!-- TODO -->
 <!-- make navbar -->
-<div class="flex w-screen justify-between px-42 py-10 sticky top-0 left-0 bg-black-primary">
+<div class="flex w-screen justify-between px-42 py-10 fixed top-0 bg-black-primary">
     <div class="text-3xl">
         HL
     </div>
@@ -52,7 +52,7 @@
 </div>
 
 <!-- MAKE HERO section -->
-<main class="h-screen bg-green-primary">
+<main class="h-[90vh] bg-green-primary">
     <div class="h-full w-full flex justify-center items-center">
         <!-- svelte-ignore a11y_mouse_events_have_key_events -->
         <h1 class="text-black text-4xl font-bold uppercase font-hacked hacked" onmouseover={onHackEffect}>
@@ -62,9 +62,56 @@
 </main>
 
 <!-- make project section -->
-<div>
-    this is the project section
+<div class="flex flex-col h-screen w-full">
+    <h1>
+        My Projects!!!
+    </h1>
+    <div class="flex flex-row">
+        <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Card Title</h2>
+              <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+    </div>
 </div>
+
 <!-- make about section -->
 <div>
     this is the about section
